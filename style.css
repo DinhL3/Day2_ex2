@@ -1,0 +1,67 @@
+#assignment1 p {
+    color:darkblue;
+    font: italic 20px Verdana;
+}
+
+#assignment1 p::first-letter {
+    font-size: 200%;
+    color: #27ae60;
+}
+
+#assignment1 #para1 {color:#2ecc71;}
+
+#assignment1 .header {color:#e67e22;}
+
+#assignment1 h1 {background-color: linen;}
+
+#assignment1 {background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;}
+
+/* #assignment1 h1:first-child {
+    visibility: hidden;
+} */
+
+#assignment1 h1:first-child {
+    display: none;
+}
+
+#assignment1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50%;
+}
+
+/* #assignment2 */
+/* unvisited link */
+#assignment2 a:link {color: green;}
+
+#assignment2 a:visited {color:red;}
+
+#assignment2 a:hover {background-color: pink;}
+
+/* on click loading */
+#assignment2 a:active {color:lightgreen;
+}
+
+/* assignment3 */
+
+#assignment3 {font: 16px;}
+/* how to make top level 100% */
+#assignment3 li {font-size: 80%;}
+
+/* Assignment 4 */
+/* dung vmin de fit tat ca size man hinh */
+#assignment4 .container {width:90vmin;}
+
+#assignment4 .square {
+    width: 100%;
+    padding-bottom:100%;
+    position: relative;
+    background-color: darkblue;
+    
+  }
+
+
