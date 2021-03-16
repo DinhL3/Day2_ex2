@@ -54,7 +54,7 @@
 
 /* Assignment 4 */
 /* dung vmin de fit tat ca size man hinh */
-#assignment4 .container {width:90vmin;
+#assignment4 .square {width:90vmin;
 height:90vmin;
 background-color: darkblue;
 }
